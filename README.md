@@ -1,8 +1,8 @@
 # Let's learn TypeScript
 
-## TypeScript is a object oriented programming language that is built on top of JavaScript with some extra features.
+### TypeScript is a object oriented programming language that is built on top of JavaScript with some extra features.
 
-### How to install in your local machine
+#### How to install in your local machine
 
 ```
 npm install -g typescript
