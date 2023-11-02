@@ -52,7 +52,7 @@ There are different types of data types are in TypeScript. Here are the types be
 
 #### Primitive Data Types:
 
-##### 1. Number: ###### A number can be an integer, a floating-point number, or a NaN (Not a Number).
+##### 1. Number: `A number can be an integer, a floating-point number, or a NaN (Not a Number)`
 
 ##### 2. String: ###### A string is a sequence of characters.
 
