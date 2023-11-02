@@ -46,69 +46,42 @@ npm install -g typescript
 
 #
 
-### Basic Data Types in TypeScript
+### Data types in TypeScript
 
-```
-// Basic Data types in TypeScript
+There are different types of data types are in TypeScript. Here are the types below.
 
-// string
-let firstName: string = "Robin";
+#### Primitive Data Types:
 
-// number
-let phone: number = 2343;
+##### 1. Number: ###### A number can be an integer, a floating-point number, or a NaN (Not a Number).
 
-// boolean
-const isClicked: boolean = false;
+##### 2. String: ###### A string is a sequence of characters.
 
-// undefined
-let x: undefined = undefined;
+##### 3. Boolean: ###### A boolean can be either true or false.
 
-//null
-let y: null = null;
+##### 4. Null: ###### Null represents the absence of a value.
 
-//bigInt
-let z: bigint = 740998n;
+##### 5. Undefined: ###### Undefined represents a value that has not yet been assigned.
 
-//symbol
-let hello = Symbol.for("hello");
+##### 6. Symbol: ###### A symbol is a unique value that is used to identify objects. Symbols are often used to represent private properties or methods.
 
-//Array of string values
-let friends: string[] = ['Rachel', "Conway"];
+#### Compound Data Types:
 
-// Array of number values
-let rolls: number[] = [5,3,2,3,54,6];
+##### 1. Object: ###### An object is a collection of named properties, each of which can have a value of any type. Objects are often used to represent real-world entities, such as users, products, or orders.
 
+##### 2. Array: ###### An array is an ordered collection of values, all of which must be of the same type. Arrays are often used to represent lists of items, such as a list of products or a list of users.
 
-// tuple data type.
-// Tuple is a special type of array.
+##### 3. Tuple: ###### A tuple is a fixed-length collection of values, each of which can have a different type. Tuples are often used to represent data structures that have a specific format, such as a point in coordinate space or a date and time.
 
-let coordinates: [number, number] = [1, 5];
+##### 4. Enum: ###### An enum is a set of named constants. Enums are often used to represent a set of possible values for a property, such as the possible states of a traffic light or the possible sizes of a shirt.
 
-// This is an tuple of string and number coordinates
-let nameAge: [string, number] = ["Robin", 19];
+##### 5. Union: #####3 A union represents a value that can be of any of two or more types. Unions are often used to represent data that can take on a variety of different forms, such as a value that can be either a string or a number.
 
-// Object data type in TS
-const user: object = {
-    name: 'Robin',
-    age: 19,
-}
+##### 6. Intersection: ###### An intersection represents a value that must be of all of two or more types. Intersections are often used to represent data that must meet multiple criteria, such as a value that must be both a string and a number.ed to represent private properties or methods.
 
-// Here is an example of object type with predefined properties type
+#### Special data types:
 
-const player: {
-    readonly id: '17934234dfasd';
-    title: 'Web Developer'; // literal types
-    name: string;
-    age: number;
-    role: string;
-    isCaptain: boolean;
-    gender?: string // Optional type
-} = {
-    id: "12031273sdfasdf",
-    title: 'Web Developer',
-    name: 'Tamim Iqbal',
-    age: 36,
-    role: 'Left-Handed batsman',
-    isCaptain: false
-}
-```
+##### 1. Void: ###### Void represents the absence of a value. Void is often used as the return type of a function that does not return anything.
+
+##### 2. Never: ###### Never represents a value that never occurs. Never is often used as the return type of a function that always throws an exception or that never returns.
+
+#
