@@ -23,3 +23,24 @@ const player: {
   gender: "Male",
   isMarried: true,
 };
+
+// 9. Object
+
+const playerInfo: {
+  readonly Team: "Bangladesh"; // Literal type data.
+  firstName: string;
+  lastName: string;
+  age: number;
+  gender: string;
+  role: string;
+  isMarried?: Boolean;
+} = {
+  Team: "Bangladesh",
+  firstName: "Tamim",
+  lastName: "Iqbal",
+  age: 36,
+  gender: "Male",
+  role: "Left-Handed Batsman",
+};
+
+// 10. Function in TypeScript

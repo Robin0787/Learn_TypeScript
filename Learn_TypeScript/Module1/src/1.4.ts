@@ -44,3 +44,72 @@ let coordinates: [number, number] = [1, 5];
 let nameAge: [string, number] = ["Robin", 19];
 
 // New code start's in the 1.5.ts file
+
+// Practice Code
+
+// Data types in TS
+
+// 1. String
+let text: string = "I love TypeScript";
+
+// 2. Number
+const number: number = 456356;
+
+// 3. Boolean
+const isChecked: Boolean = true || false;
+
+// 4. Null
+let person: null = null;
+
+// 5. Undefined
+let value: undefined = undefined;
+
+// 6. Symbol
+let helloSymbol: symbol = Symbol.for("Hello");
+
+// 7. BigInt
+let longIng: BigInt = 2423423434n;
+
+// 8. Array
+const names: string[] = ["Robin", "Hossen", "Rakib", "Miah"];
+
+// Array of numbers
+const rollNumbers: number[] = [49536, 59482, 48294, 29582, 49284, 23634];
+
+// Array of boolean values
+const checks: Boolean[] = [true, false, true, true, false, true, false, false];
+
+// Array of mixed values
+const mixedValues: (number | string | Boolean)[] = [
+  34,
+  "Robin",
+  true,
+  49,
+  "Text",
+  false,
+];
+
+const arr: [number, string] = [45, "Text"];
+
+const arr2: [{ id?: string; name: string }] = [{ name: "Robin" }];
+
+// 9. Object
+
+const playerData: {
+  readonly Team: "Bangladesh"; // Literal type data.
+  firstName: string;
+  lastName: string;
+  age: number;
+  gender: string;
+  role: string;
+  isMarried?: Boolean;
+} = {
+  Team: "Bangladesh",
+  firstName: "Tamim",
+  lastName: "Iqbal",
+  age: 36,
+  gender: "Male",
+  role: "Left-Handed Batsman",
+};
+
+// 10. Function in TypeScript
