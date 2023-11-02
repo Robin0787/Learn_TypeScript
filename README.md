@@ -54,34 +54,34 @@ There are different types of data types are in TypeScript. Here are the types be
 
 ##### 1. Number: `A number can be an integer, a floating-point number, or a NaN (Not a Number)`
 
-##### 2. String: ###### A string is a sequence of characters.
+##### 2. String: `A string is a sequence of characters.`
 
-##### 3. Boolean: ###### A boolean can be either true or false.
+##### 3. Boolean: `A boolean can be either true or false.`
 
-##### 4. Null: ###### Null represents the absence of a value.
+##### 4. Null: `Null represents the absence of a value.`
 
-##### 5. Undefined: ###### Undefined represents a value that has not yet been assigned.
+##### 5. Undefined: `Undefined represents a value that has not yet been assigned.`
 
-##### 6. Symbol: ###### A symbol is a unique value that is used to identify objects. Symbols are often used to represent private properties or methods.
+##### 6. Symbol: `A symbol is a unique value that is used to identify objects. Symbols are often used to represent private properties or methods.`
 
 #### Compound Data Types:
 
-##### 1. Object: ###### An object is a collection of named properties, each of which can have a value of any type. Objects are often used to represent real-world entities, such as users, products, or orders.
+##### 1. Object: ` An object is a collection of named properties, each of which can have a value of any type. Objects are often used to represent real-world entities, such as users, products, or orders.`
 
-##### 2. Array: ###### An array is an ordered collection of values, all of which must be of the same type. Arrays are often used to represent lists of items, such as a list of products or a list of users.
+##### 2. Array: ` An array is an ordered collection of values, all of which must be of the same type. Arrays are often used to represent lists of items, such as a list of products or a list of users.`
 
-##### 3. Tuple: ###### A tuple is a fixed-length collection of values, each of which can have a different type. Tuples are often used to represent data structures that have a specific format, such as a point in coordinate space or a date and time.
+##### 3. Tuple: ` A tuple is a fixed-length collection of values, each of which can have a different type. Tuples are often used to represent data structures that have a specific format, such as a point in coordinate space or a date and time.`
 
-##### 4. Enum: ###### An enum is a set of named constants. Enums are often used to represent a set of possible values for a property, such as the possible states of a traffic light or the possible sizes of a shirt.
+##### 4. Enum: ` An enum is a set of named constants. Enums are often used to represent a set of possible values for a property, such as the possible states of a traffic light or the possible sizes of a shirt.`
 
-##### 5. Union: #####3 A union represents a value that can be of any of two or more types. Unions are often used to represent data that can take on a variety of different forms, such as a value that can be either a string or a number.
+##### 5. Union: ` A union represents a value that can be of any of two or more types. Unions are often used to represent data that can take on a variety of different forms, such as a value that can be either a string or a number.`
 
-##### 6. Intersection: ###### An intersection represents a value that must be of all of two or more types. Intersections are often used to represent data that must meet multiple criteria, such as a value that must be both a string and a number.ed to represent private properties or methods.
+##### 6. Intersection: ` An intersection represents a value that must be of all of two or more types. Intersections are often used to represent data that must meet multiple criteria, such as a value that must be both a string and a number.ed to represent private properties or methods.`
 
 #### Special data types:
 
-##### 1. Void: ###### Void represents the absence of a value. Void is often used as the return type of a function that does not return anything.
+##### 1. Void: ` Void represents the absence of a value. Void is often used as the return type of a function that does not return anything.`
 
-##### 2. Never: ###### Never represents a value that never occurs. Never is often used as the return type of a function that always throws an exception or that never returns.
+##### 2. Never: ` Never represents a value that never occurs. Never is often used as the return type of a function that always throws an exception or that never returns.`
 
 #
