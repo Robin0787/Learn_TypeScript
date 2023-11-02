@@ -26,23 +26,17 @@ npm install -g typescript
 
 ###### On the other hand, TS is a static typed language that is built on top of JS. In TS we have to define the types of variables and expressions. After defining the types we will never assign any other data types value to that variable.
 
-#
-
 #### 2. Difficult to maintain large codebase.
 
 ###### It's very difficult to maintain large codebase in JS. In large applications it's always better to maintain a structure. Using JS we can't maintain the structure.
 
 ###### In TS we can easily maintain a large codebase because in TS we always follow a structure. In TS we always predefine the types of variables and expressions so that further we won't get any type related confusion.
 
-#
-
 #### 3. Hard to find bugs.
 
 ###### In JavaScript we only get bugs in the runtime environment which is not appropriate. It will consume much time to test our code and find bugs in our code. We will only get bugs when we run our application.
 
 ###### In TypeScript we will get the errors in the development environment. TS compiler gives error at the compile time so that we can be more productive.
-
-#
 
 #### 4. Catch errors only in Runtime.
 
@@ -51,6 +45,10 @@ npm install -g typescript
 ###### On the other hand, TypeScript gives errors in the development environment. We will get the errors in the development environment and we even don't have to run the application. It gives a nice developer experience and increase our productivity and also take less time to debug.
 
 #
+
+#
+
+##
 
 ### Basic Data Types in TypeScript
 
