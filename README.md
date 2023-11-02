@@ -46,10 +46,6 @@ npm install -g typescript
 
 #
 
-#
-
-##
-
 ### Basic Data Types in TypeScript
 
 ```
